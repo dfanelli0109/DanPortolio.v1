@@ -30,52 +30,60 @@
 <body>
   <header>
       <!-- Navigation -->
-      <nav class="navbar navbar-default navbar-fixed-top topnav" id="navbar1" role="navigation">
-        <div class="topnav">
+      <nav class="navbar navbar-default" id="navbar1" role="navigation">
+         <div class="container-fluid topnav" id="paddingzero">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+              <div class="navbar-header" id="auto-height">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <div class="topmar" id="top1">
-                <a class="navbar-brand topnav" id="brandname" href="https://www.linkedin.com/in/daniel-fanelli-4b186232/"><span class="init"> Daniel Fanelli </span>   <marquee id="mar" scrollamount="3"><img id="df" src="df.jpg"><span id="welcome">Welcome to DanielFanelli.com.</span> I can be reached at (407)615-0533 if you would like to discuss with me upcoming web development opportunities. <img id="df" src="df.jpg" />Take 40% OFF our Web Development Services <img id="df" src="df.jpg">  <a id="tel1" href="tel:18339327526"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Speak to a Sales Representative Today!</a></marquee></a>
-            </div>
-          </div>
+               
+                <marquee id="mar" scrollamount="3"><img id="df" src="df.jpg">Welcome to DanielFanelli.com. <span id="welcome"></span> Contact me today   <a id="tel1" href="tel:4076150533"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> by phone. </a> Any messages left on my phone will be returned the same business day</span><img id="df" src="df.jpg">Take 25% OFF our Web Development Services and get your business on track for success today!<img id="df" src="df.jpg"> </marquee>
+                  <div id="hshotcont">
+                      <div id="hshot"> </div>
+                      <div id="brandcont"><div class="nametitle" id="borderblue"><div class="brand">Daniel Fanelli</div><div class="title">Full Stack Web Developer
+                         <ul class="list-inline intro-social-buttons" id="netwkbtn">
+     <li class="socbuttons">
+               <a href="https://github.com/dfanelli0109" class="btn btn-default btn-sm" id="btnscl"><i class="fa fa-github fa-fw"></i> <span class="network-name" id="netname">dfanelli0109</span></a>
+           </li>
+           <li class="socbuttons">
+               <a href="https://www.linkedin.com/in/daniel-fanelli-4b186232/" class="btn btn-default btn-sm" id="btnscl"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name" id="netname">Linkedin</span></a>
+           </li>
+       </ul></div></div></div></div>
+      
+ 
+  
+          
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
-            <ul class="topmenu" id="menu">
-       <li class="btn-md"><a  href="index.html">Home</a></li>
-    <!--<li class="btn-md"><a  href="#projects">Projects</a></li>
-       <li class="btn-md"><a  href="#clients">Clients</a></li>-->
-       <li class="btn-md"><a  href="#contact">Contact</a></li>
-        <li class="btn-md"> <a href="tel:4076150533"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Call Daniel</a></li>
-       <li class="btn-md right"><a data-toggle="modal" data-target="#myModal">Log In</a></li>
-        <li class="btn-md right"><a data-toggle="modal" data-target="#registerModal">Register</a></li>
-     </ul>
-     </div>
-     </div>
-     </nav>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" id="navtop">
+                    <li class="navli navlinks" id="navcolor">
+                        <a class="pglink" href="about.html">About</a>
+                    </li>
+                    <li class="navli navlinks" id="navcolor">
+                            <a class="pglink" href="blog.html">Blog</a>
+                        </li>
+                    <li class="navli navlinks" id="navcolor">
+                        <a class="pglink" href="contactus.html">Contact</a>
+                    </li>
+                    <li class="navli navlinks" id="navcolor"><a class="pglink" data-toggle="modal" data-target="#myModal">Log In</a></li>
+                    <li class="navli navlinks" id="navcolor">
+                        <a class="pglink" href="tel:18339327526"><span class="glyphicon glyphicon-earphone" id="sz" aria-hidden="true"></span> Call Daniel</a>
+                      </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+      
 </header>
      <div class="page" id="about">
-    <div class="container-fluid" id="topid">
-        <div class="row">
-            <div class="col-lg-3 col-xs-6 xs-offset-3">
-                      <a href="https://www.linkedin.com/in/daniel-fanelli-4b186232/">
-                        <div id="hshot"> </div></div>
-                        <div class="col-lg-8 col-xs-6 xs-offset-3"><div id="brandcont"><div class="nametitle" id="borderblue"><div class="brand">Daniel Fanelli</div><div class="title">Full Stack Web Developer
-                           <ul class="list-inline intro-social-buttons" id="netwkbtn">
-       <li class="socbuttons">
-                 <a href="https://github.com/dfanelli0109" class="btn btn-default btn-sm" id="btnscl"><i class="fa fa-github fa-fw"></i> <span class="network-name" id="netname">dfanelli0109</span></a>
-             </li>
-             <li class="socbuttons">
-                 <a href="https://www.linkedin.com/in/daniel-fanelli-4b186232/" class="btn btn-default btn-sm" id="btnscl"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name" id="netname">Linkedin</span></a>
-             </li>
-         </ul></div></a>
    
-    </div>
+         
    
    </div>
   </div>
@@ -155,7 +163,7 @@
 </div>
   </div>
 </div>
-<div class="container" id="zeromargin">
+<div class="container-fluid" id="zeromargin">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators" id="ind">
@@ -200,8 +208,7 @@
 
             <div class="col-md-6 col-sm-12">
               <div class="contactinfo2">
-                      Webceptional Designs<br>
-                      Daniel Fanelli<br>
+                      Contact Daniel Fanelli<br>
                       E:     <a href="mailto:daniel@danielfanelli.com.com?Subject=DanielFanelli.com">daniel@danielfanelli.com</a>
 
                       T:   <a href="tel:14076150533"><i class="fa fa-phone"></i> 1.407.615.0533</a>
@@ -209,15 +216,9 @@
                           <a href="" onclick="Calendly.showPopupWidget('https://calendly.com/daniel-r-fanellijr');return false;"><h2 id="book">Book an Appointment</h2></a>
 
 
-                      <!-- Calendly link widget end -->
-            
-              <h1 id = "contact-or"> or</h1>
-              <a href="" onclick="Calendly.showPopupWidget('https://calendly.com/daniel-r-fanellijr');return false;"><h2 id="book">Book a Meeting</h2></a>
-            </div>
-          </div>
 
-
-
+</div>
+</div>
           <!-- Calendly link widget end -->
           <!-- Begin MailChimp Signup Form -->
           <div class="col-md-6 col-sm-12 lbanner">
